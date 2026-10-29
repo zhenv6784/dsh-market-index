@@ -1,25 +1,25 @@
 {
-  "builtAt": "2026-10-29T14:34:56.829Z",
+  "builtAt": "2026-10-29T14:35:10.509Z",
   "targetDsh": "0.2.1-rc.3",
-  "requested": 50,
-  "candidates": 50,
-  "included": 8,
+  "requested": 200,
+  "candidates": 100,
+  "included": 14,
   "counts": {
-    "skipped": 40,
-    "included-npm": 7,
-    "included-git": 1,
-    "npm": 2
+    "skipped": 78,
+    "included-npm": 11,
+    "included-git": 3,
+    "npm": 8
   },
   "records": [
     {
       "repo": "morluto/rea",
-      "stars": 405989,
+      "stars": 405996,
       "status": "skipped",
       "reason": "package.json has no dsh.bundle"
     },
     {
       "repo": "deepseek-ai/deepseek-harness",
-      "stars": 265579,
+      "stars": 265580,
       "status": "skipped",
       "reason": "package.json has no dsh.bundle"
     },
@@ -43,7 +43,7 @@
     },
     {
       "repo": "Ebony-Vinyl/dsh-our-free-model",
-      "stars": 50466,
+      "stars": 50472,
       "status": "included-npm",
       "reason": "",
       "name": "dsh-our-free-model",
@@ -65,7 +65,7 @@
             "llm-provider"
           ],
           "sortKeys": {
-            "stars": 50466
+            "stars": 50472
           }
         },
         "versions": [
@@ -173,7 +173,7 @@
     },
     {
       "repo": "zhu1090093659/dsh-web",
-      "stars": 9774,
+      "stars": 9775,
       "status": "skipped",
       "reason": "no engines.dsh and no @deepseek-ai/dsh peer (git source)",
       "name": "dsh-web"
@@ -186,7 +186,7 @@
     },
     {
       "repo": "dsh-market/dsh-market",
-      "stars": 9668,
+      "stars": 9669,
       "status": "included-npm",
       "reason": "",
       "name": "dshmarket",
@@ -211,7 +211,7 @@
             "plugin-manager"
           ],
           "sortKeys": {
-            "stars": 9668
+            "stars": 9669
           }
         },
         "versions": [
@@ -603,6 +603,537 @@
       "stars": 3622,
       "status": "skipped",
       "reason": "no package.json at repository root"
+    },
+    {
+      "repo": "edison7009/EchoBird",
+      "stars": 3457,
+      "status": "skipped",
+      "reason": "package.json has no dsh.bundle"
+    },
+    {
+      "repo": "chuspeeism/dashi-taskboard",
+      "stars": 3412,
+      "status": "skipped",
+      "reason": "package.json has no dsh.bundle"
+    },
+    {
+      "repo": "dsh-tauri/deepseek-harness-desktop",
+      "stars": 3355,
+      "status": "skipped",
+      "reason": "package.json has no dsh.bundle"
+    },
+    {
+      "repo": "kingcharleslzy-ai/dsh-purge",
+      "stars": 3349,
+      "status": "skipped",
+      "reason": "no engines.dsh and no @deepseek-ai/dsh peer (git source)",
+      "name": "dsh-purge-community"
+    },
+    {
+      "repo": "ranxianglei/billion-context",
+      "stars": 3335,
+      "status": "npm",
+      "reason": "no engines.dsh and no @deepseek-ai/dsh peer",
+      "name": "billion-context"
+    },
+    {
+      "repo": "GCWing/OpenBitFun",
+      "stars": 3306,
+      "status": "skipped",
+      "reason": "package.json has no dsh.bundle"
+    },
+    {
+      "repo": "sopaco/deepwiki-rs",
+      "stars": 3154,
+      "status": "skipped",
+      "reason": "no package.json at repository root"
+    },
+    {
+      "repo": "Tiger3807861189/J-Space-Cognition-Suite",
+      "stars": 2960,
+      "status": "skipped",
+      "reason": "no package.json at repository root"
+    },
+    {
+      "repo": "Small-tailqwq/dsh-deep-whale",
+      "stars": 2957,
+      "status": "skipped",
+      "reason": "no package.json at repository root"
+    },
+    {
+      "repo": "zilliztech/memsearch",
+      "stars": 2804,
+      "status": "skipped",
+      "reason": "no package.json at repository root"
+    },
+    {
+      "repo": "xmanrui/dsh-im",
+      "stars": 2776,
+      "status": "npm",
+      "reason": "no engines.dsh and no @deepseek-ai/dsh peer",
+      "name": "@xmanrui/dsh-im"
+    },
+    {
+      "repo": "mmparko/dsh-purge",
+      "stars": 2664,
+      "status": "skipped",
+      "reason": "no engines.dsh and no @deepseek-ai/dsh peer (git source)",
+      "name": "dsh-purge"
+    },
+    {
+      "repo": "shaobeichen/dsh-pocket",
+      "stars": 2545,
+      "status": "npm",
+      "reason": "no engines.dsh and no @deepseek-ai/dsh peer",
+      "name": "dsh-pocket"
+    },
+    {
+      "repo": "NanmiCoder/dsh-agent-teams",
+      "stars": 2538,
+      "status": "included-npm",
+      "reason": "",
+      "name": "@nanmicoder/dsh-agent-teams",
+      "version": "0.1.27",
+      "plugin": {
+        "name": "@nanmicoder/dsh-agent-teams",
+        "title": "DSH Agent Teams",
+        "description": "AgentTeams for DeepSeek Harness: multi-agent team collaboration (captain, members, tasks with dependencies, messaging) driven by natural language, with a tree monitor in the web GUI",
+        "author": "程序员阿江 (Relakkes)",
+        "homepage": "https://github.com/NanmiCoder/dsh-agent-teams#readme",
+        "repository": {
+          "url": "https://github.com/NanmiCoder/dsh-agent-teams"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "agent-teams",
+            "multi-agent",
+            "subagent",
+            "ai-agent",
+            "llm"
+          ],
+          "sortKeys": {
+            "stars": 2538
+          }
+        },
+        "versions": [
+          {
+            "version": "0.1.27",
+            "publishTimestamp": 1792988143,
+            "source": {
+              "type": "npm"
+            },
+            "engines": {}
+          }
+        ]
+      }
+    },
+    {
+      "repo": "Alisa0808/vox-director",
+      "stars": 2516,
+      "status": "skipped",
+      "reason": "package.json has no dsh.bundle"
+    },
+    {
+      "repo": "anywhere-labs/Agents-Anywhere",
+      "stars": 2456,
+      "status": "skipped",
+      "reason": "no package.json at repository root"
+    },
+    {
+      "repo": "Ebony-Vinyl/EAC-Desktop",
+      "stars": 2310,
+      "status": "skipped",
+      "reason": "no package.json at repository root"
+    },
+    {
+      "repo": "dream-num/univer-workspace",
+      "stars": 2256,
+      "status": "skipped",
+      "reason": "package.json has no dsh.bundle"
+    },
+    {
+      "repo": "MemTensor/memmy-agent",
+      "stars": 2160,
+      "status": "skipped",
+      "reason": "package.json has no dsh.bundle"
+    },
+    {
+      "repo": "Jesseovo/last30days-skill-cn",
+      "stars": 1994,
+      "status": "skipped",
+      "reason": "no package.json at repository root"
+    },
+    {
+      "repo": "zhuyansen/new-term-radar",
+      "stars": 1949,
+      "status": "skipped",
+      "reason": "no package.json at repository root"
+    },
+    {
+      "repo": "kenryu42/cc-safety-net",
+      "stars": 1847,
+      "status": "npm",
+      "reason": "no engines.dsh and no @deepseek-ai/dsh peer",
+      "name": "cc-safety-net"
+    },
+    {
+      "repo": "Unclecheng-li/AI_Animation",
+      "stars": 1669,
+      "status": "skipped",
+      "reason": "package.json has no dsh.bundle"
+    },
+    {
+      "repo": "Devin-AXIS/deepseek-design",
+      "stars": 1626,
+      "status": "skipped",
+      "reason": "no package.json at repository root"
+    },
+    {
+      "repo": "hyhmrright/brooks-lint",
+      "stars": 1550,
+      "status": "npm",
+      "reason": "no engines.dsh and no @deepseek-ai/dsh peer",
+      "name": "brooks-lint"
+    },
+    {
+      "repo": "AdamPlatin123/dsh-plugin-radar",
+      "stars": 1488,
+      "status": "skipped",
+      "reason": "no package.json at repository root"
+    },
+    {
+      "repo": "sixtysevenlf/dsh-blender-plugin",
+      "stars": 1452,
+      "status": "included-git",
+      "reason": "",
+      "name": "@dsh-external/dsh-blender-plugin",
+      "note": "not published to npm",
+      "version": "2.6.2",
+      "plugin": {
+        "name": "@dsh-external/dsh-blender-plugin",
+        "title": "DSH Blender Plugin",
+        "description": "DSH × Blender 直连插件（v2.6.2，GUI 优先，无头备用）：15 个模型工具让 AI 直接驱动 Blender——视口/自定义视角、持久内核 Python、时间窗/帧序列观察、内环参数搜索、无头进程与热会话（see/watch/reset/preload/warmup）、作业层、事务回滚、配方库，以及 34 family / 228 op 的契约层（catalog / 判定 / 验收 / 造型 / 装配 / 白模 / 导出）。v2.6.2 新增曲面算法包 surface_*（loft/sweep/patch → tessellate → validate → export，M0–M2/M4；M3 fit 与 M5 blend/offset 未实现）。P0–P2 能力：交互式无头（rt_do/rt_see session、plan session=auto）、参考图量具（img_digest/probe/measure/calib）、装配扫描/清单/合并/修复/门/导出（asm_*）、白模与 Seedance 参考包（blockout refsheet/turntable）、同机位 QC（visualreport_report）、无头轮廓拟合（shapesolve_solve）、缺陷注入评估（eval_run）、强制门（gate_/deliver_export require_gate）。默认先开 GUI；无头备用；装完必须重启 DSH；唯一验收判据 doctor kind=ok；blender-modeling skill 随包自动注册。详见 README 与 docs/操作教程.md。",
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "blender",
+            "ai-agent",
+            "tooling",
+            "bpy",
+            "cycles",
+            "skill",
+            "modeling"
+          ],
+          "sortKeys": {
+            "stars": 1452
+          }
+        },
+        "versions": [
+          {
+            "version": "2.6.2",
+            "publishTimestamp": 1793199095,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/sixtysevenlf/dsh-blender-plugin",
+              "commit": "8b1b47019189ec5f40f092029c9ab5c31daa9e5a"
+            },
+            "engines": {}
+          }
+        ]
+      }
+    },
+    {
+      "repo": "GanyuanRan/Aegis",
+      "stars": 1399,
+      "status": "included-git",
+      "reason": "",
+      "name": "aegis",
+      "note": "npm version lacks dsh.bundle",
+      "version": "2.14.2",
+      "plugin": {
+        "name": "aegis",
+        "title": "Aegis",
+        "author": "killdream",
+        "repository": {
+          "url": "https://github.com/GanyuanRan/Aegis"
+        },
+        "metadata": {
+          "keywords": [
+            "pi-package",
+            "agent-skills",
+            "aegis",
+            "method-pack",
+            "dsh-plugin",
+            "deepseek-harness"
+          ],
+          "sortKeys": {
+            "stars": 1399
+          }
+        },
+        "versions": [
+          {
+            "version": "2.14.2",
+            "publishTimestamp": 1792907142,
+            "source": {
+              "type": "git",
+              "url": "https://github.com/GanyuanRan/Aegis",
+              "commit": "0461c211e4d812f0b215fab240a68a25c1e22424"
+            },
+            "engines": {}
+          }
+        ]
+      }
+    },
+    {
+      "repo": "oceanbase/powercontext",
+      "stars": 1394,
+      "status": "skipped",
+      "reason": "no package.json at repository root"
+    },
+    {
+      "repo": "flizzywine/dsh-tavern",
+      "stars": 1380,
+      "status": "skipped",
+      "reason": "package.json has no dsh.bundle"
+    },
+    {
+      "repo": "OpenPetsHQ/openpets",
+      "stars": 1351,
+      "status": "skipped",
+      "reason": "package.json has no dsh.bundle"
+    },
+    {
+      "repo": "0xsline/awesome-deepseek-harness",
+      "stars": 1280,
+      "status": "skipped",
+      "reason": "no package.json at repository root"
+    },
+    {
+      "repo": "Miaotofu01/Study-Mate",
+      "stars": 1258,
+      "status": "npm",
+      "reason": "no engines.dsh and no @deepseek-ai/dsh peer",
+      "name": "@yunmiao/studymate"
+    },
+    {
+      "repo": "Anionex/agent-vision-toolkit",
+      "stars": 1251,
+      "status": "skipped",
+      "reason": "no package.json at repository root"
+    },
+    {
+      "repo": "mem9-ai/mem9",
+      "stars": 1232,
+      "status": "skipped",
+      "reason": "no package.json at repository root"
+    },
+    {
+      "repo": "xyTom/coding-tools-mcp",
+      "stars": 1217,
+      "status": "skipped",
+      "reason": "no package.json at repository root"
+    },
+    {
+      "repo": "ysr666/dsh-vision-router",
+      "stars": 1195,
+      "status": "included-npm",
+      "reason": "",
+      "name": "dsh-vision-router",
+      "version": "3.1.0",
+      "plugin": {
+        "name": "dsh-vision-router",
+        "title": "DSH Vision Router",
+        "description": "Eyes for text-only DeepSeek Harness agents: built-in free vision chain + pixel-level tools. Remote vision providers, including the default free fallback, receive image content unless strict local-only use is configured.",
+        "author": "ysr182",
+        "homepage": "https://github.com/ysr666/dsh-vision-router",
+        "repository": {
+          "url": "https://github.com/ysr666/dsh-vision-router"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek-harness",
+            "dsh",
+            "vision",
+            "vision-tools",
+            "multimodal",
+            "openrouter",
+            "image",
+            "ocr",
+            "screenshot",
+            "plugin"
+          ],
+          "sortKeys": {
+            "stars": 1195
+          }
+        },
+        "versions": [
+          {
+            "version": "3.1.0",
+            "publishTimestamp": 1792824530,
+            "source": {
+              "type": "npm"
+            },
+            "engines": {
+              "dsh": ">=0.1.5-rc.1 <0.2.0-0 || >=0.2.0-rc.2 <0.3.0-0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "repo": "agentrq/agentrq",
+      "stars": 1171,
+      "status": "skipped",
+      "reason": "no package.json at repository root"
+    },
+    {
+      "repo": "platonai/Browser4",
+      "stars": 1170,
+      "status": "skipped",
+      "reason": "no package.json at repository root"
+    },
+    {
+      "repo": "hanliang97/MatrixMedia",
+      "stars": 1154,
+      "status": "skipped",
+      "reason": "package.json has no dsh.bundle"
+    },
+    {
+      "repo": "TencentCloudBase/CloudBase-AI-Toolkit",
+      "stars": 1151,
+      "status": "skipped",
+      "reason": "package.json has no dsh.bundle"
+    },
+    {
+      "repo": "paean-ai/deeptide",
+      "stars": 1107,
+      "status": "skipped",
+      "reason": "package.json has no dsh.bundle"
+    },
+    {
+      "repo": "tong-io/tongflow",
+      "stars": 1048,
+      "status": "skipped",
+      "reason": "package.json has no dsh.bundle"
+    },
+    {
+      "repo": "Tiger3807861189/GLM-5.3-Flash-J-Space-Capability-Realization-Report",
+      "stars": 1017,
+      "status": "skipped",
+      "reason": "no package.json at repository root"
+    },
+    {
+      "repo": "c1overzz/dsh-bili-scroll",
+      "stars": 1007,
+      "status": "included-npm",
+      "reason": "",
+      "name": "dsh-bili-scroll",
+      "version": "2.3.0",
+      "plugin": {
+        "name": "dsh-bili-scroll",
+        "title": "DSH Bili Scroll",
+        "description": "DSH 插件：每天替你刷一轮 B站 —— 读字幕挑出值得的、写一份日报，值得的就 @ 你",
+        "author": "cloverzz",
+        "homepage": "https://github.com/c1overzz/dsh-bili-scroll#readme",
+        "repository": {
+          "url": "https://github.com/c1overzz/dsh-bili-scroll"
+        },
+        "metadata": {
+          "keywords": [
+            "dsh",
+            "dsh-plugin",
+            "deepseek-harness",
+            "bilibili",
+            "mcp",
+            "duty"
+          ],
+          "sortKeys": {
+            "stars": 1007
+          }
+        },
+        "versions": [
+          {
+            "version": "2.3.0",
+            "publishTimestamp": 1793122740,
+            "source": {
+              "type": "npm"
+            },
+            "engines": {
+              "dsh": ">=0.1.7-rc.1"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "repo": "PicGo/PicGo-Core",
+      "stars": 993,
+      "status": "skipped",
+      "reason": "package.json has no dsh.bundle"
+    },
+    {
+      "repo": "freestylefly/wesight",
+      "stars": 962,
+      "status": "skipped",
+      "reason": "package.json has no dsh.bundle"
+    },
+    {
+      "repo": "kelai141/dsh-mobile-apk",
+      "stars": 953,
+      "status": "skipped",
+      "reason": "no package.json at repository root"
+    },
+    {
+      "repo": "omdsh-dev/dsh-browser",
+      "stars": 938,
+      "status": "skipped",
+      "reason": "package.json has no dsh.bundle"
+    },
+    {
+      "repo": "liguobao/ds-harness-remote",
+      "stars": 937,
+      "status": "included-npm",
+      "reason": "",
+      "name": "ds-harness-remote",
+      "version": "0.5.23",
+      "plugin": {
+        "name": "ds-harness-remote",
+        "title": "DS Harness Remote",
+        "description": "P2P-based, end-to-end encrypted remote access to DeepSeek Harness, CodeX, Claude Code, Pi, and other workspaces from web and mobile clients.",
+        "author": "liguobao",
+        "homepage": "https://github.com/liguobao/ds-harness-remote#readme",
+        "repository": {
+          "url": "https://github.com/liguobao/ds-harness-remote"
+        },
+        "metadata": {
+          "keywords": [
+            "deepseek",
+            "deepseek-harness",
+            "dsh",
+            "dsh-plugin",
+            "codex",
+            "remote-development",
+            "end-to-end-encryption",
+            "webrtc"
+          ],
+          "sortKeys": {
+            "stars": 937
+          }
+        },
+        "versions": [
+          {
+            "version": "0.5.23",
+            "publishTimestamp": 1793234434,
+            "source": {
+              "type": "npm"
+            },
+            "engines": {}
+          }
+        ]
+      }
     }
   ]
 }

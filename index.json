@@ -37,7 +37,7 @@
           "llm-provider"
         ],
         "sortKeys": {
-          "stars": 50466
+          "stars": 50472
         }
       },
       "versions": [
@@ -71,7 +71,7 @@
           "plugin-manager"
         ],
         "sortKeys": {
-          "stars": 9668
+          "stars": 9669
         }
       },
       "versions": [
@@ -287,6 +287,215 @@
           "engines": {
             "dsh": ">=0.2.0-rc.2 || >=0.2.1-rc.2"
           }
+        }
+      ]
+    },
+    {
+      "name": "@nanmicoder/dsh-agent-teams",
+      "title": "DSH Agent Teams",
+      "description": "AgentTeams for DeepSeek Harness: multi-agent team collaboration (captain, members, tasks with dependencies, messaging) driven by natural language, with a tree monitor in the web GUI",
+      "author": "程序员阿江 (Relakkes)",
+      "homepage": "https://github.com/NanmiCoder/dsh-agent-teams#readme",
+      "repository": {
+        "url": "https://github.com/NanmiCoder/dsh-agent-teams"
+      },
+      "metadata": {
+        "keywords": [
+          "dsh",
+          "dsh-plugin",
+          "deepseek-harness",
+          "agent-teams",
+          "multi-agent",
+          "subagent",
+          "ai-agent",
+          "llm"
+        ],
+        "sortKeys": {
+          "stars": 2538
+        }
+      },
+      "versions": [
+        {
+          "version": "0.1.27",
+          "publishTimestamp": 1792988143,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {}
+        }
+      ]
+    },
+    {
+      "name": "@dsh-external/dsh-blender-plugin",
+      "title": "DSH Blender Plugin",
+      "description": "DSH × Blender 直连插件（v2.6.2，GUI 优先，无头备用）：15 个模型工具让 AI 直接驱动 Blender——视口/自定义视角、持久内核 Python、时间窗/帧序列观察、内环参数搜索、无头进程与热会话（see/watch/reset/preload/warmup）、作业层、事务回滚、配方库，以及 34 family / 228 op 的契约层（catalog / 判定 / 验收 / 造型 / 装配 / 白模 / 导出）。v2.6.2 新增曲面算法包 surface_*（loft/sweep/patch → tessellate → validate → export，M0–M2/M4；M3 fit 与 M5 blend/offset 未实现）。P0–P2 能力：交互式无头（rt_do/rt_see session、plan session=auto）、参考图量具（img_digest/probe/measure/calib）、装配扫描/清单/合并/修复/门/导出（asm_*）、白模与 Seedance 参考包（blockout refsheet/turntable）、同机位 QC（visualreport_report）、无头轮廓拟合（shapesolve_solve）、缺陷注入评估（eval_run）、强制门（gate_/deliver_export require_gate）。默认先开 GUI；无头备用；装完必须重启 DSH；唯一验收判据 doctor kind=ok；blender-modeling skill 随包自动注册。详见 README 与 docs/操作教程.md。",
+      "metadata": {
+        "keywords": [
+          "dsh",
+          "blender",
+          "ai-agent",
+          "tooling",
+          "bpy",
+          "cycles",
+          "skill",
+          "modeling"
+        ],
+        "sortKeys": {
+          "stars": 1452
+        }
+      },
+      "versions": [
+        {
+          "version": "2.6.2",
+          "publishTimestamp": 1793199095,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/sixtysevenlf/dsh-blender-plugin",
+            "commit": "8b1b47019189ec5f40f092029c9ab5c31daa9e5a"
+          },
+          "engines": {}
+        }
+      ]
+    },
+    {
+      "name": "aegis",
+      "title": "Aegis",
+      "author": "killdream",
+      "repository": {
+        "url": "https://github.com/GanyuanRan/Aegis"
+      },
+      "metadata": {
+        "keywords": [
+          "pi-package",
+          "agent-skills",
+          "aegis",
+          "method-pack",
+          "dsh-plugin",
+          "deepseek-harness"
+        ],
+        "sortKeys": {
+          "stars": 1399
+        }
+      },
+      "versions": [
+        {
+          "version": "2.14.2",
+          "publishTimestamp": 1792907142,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/GanyuanRan/Aegis",
+            "commit": "0461c211e4d812f0b215fab240a68a25c1e22424"
+          },
+          "engines": {}
+        }
+      ]
+    },
+    {
+      "name": "dsh-vision-router",
+      "title": "DSH Vision Router",
+      "description": "Eyes for text-only DeepSeek Harness agents: built-in free vision chain + pixel-level tools. Remote vision providers, including the default free fallback, receive image content unless strict local-only use is configured.",
+      "author": "ysr182",
+      "homepage": "https://github.com/ysr666/dsh-vision-router",
+      "repository": {
+        "url": "https://github.com/ysr666/dsh-vision-router"
+      },
+      "metadata": {
+        "keywords": [
+          "deepseek-harness",
+          "dsh",
+          "vision",
+          "vision-tools",
+          "multimodal",
+          "openrouter",
+          "image",
+          "ocr",
+          "screenshot",
+          "plugin"
+        ],
+        "sortKeys": {
+          "stars": 1195
+        }
+      },
+      "versions": [
+        {
+          "version": "3.1.0",
+          "publishTimestamp": 1792824530,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.5-rc.1 <0.2.0-0 || >=0.2.0-rc.2 <0.3.0-0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-bili-scroll",
+      "title": "DSH Bili Scroll",
+      "description": "DSH 插件：每天替你刷一轮 B站 —— 读字幕挑出值得的、写一份日报，值得的就 @ 你",
+      "author": "cloverzz",
+      "homepage": "https://github.com/c1overzz/dsh-bili-scroll#readme",
+      "repository": {
+        "url": "https://github.com/c1overzz/dsh-bili-scroll"
+      },
+      "metadata": {
+        "keywords": [
+          "dsh",
+          "dsh-plugin",
+          "deepseek-harness",
+          "bilibili",
+          "mcp",
+          "duty"
+        ],
+        "sortKeys": {
+          "stars": 1007
+        }
+      },
+      "versions": [
+        {
+          "version": "2.3.0",
+          "publishTimestamp": 1793122740,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.7-rc.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ds-harness-remote",
+      "title": "DS Harness Remote",
+      "description": "P2P-based, end-to-end encrypted remote access to DeepSeek Harness, CodeX, Claude Code, Pi, and other workspaces from web and mobile clients.",
+      "author": "liguobao",
+      "homepage": "https://github.com/liguobao/ds-harness-remote#readme",
+      "repository": {
+        "url": "https://github.com/liguobao/ds-harness-remote"
+      },
+      "metadata": {
+        "keywords": [
+          "deepseek",
+          "deepseek-harness",
+          "dsh",
+          "dsh-plugin",
+          "codex",
+          "remote-development",
+          "end-to-end-encryption",
+          "webrtc"
+        ],
+        "sortKeys": {
+          "stars": 937
+        }
+      },
+      "versions": [
+        {
+          "version": "0.5.23",
+          "publishTimestamp": 1793234434,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {}
         }
       ]
     }
