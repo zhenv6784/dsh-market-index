@@ -1,0 +1,294 @@
+{
+  "format": 1,
+  "title": {
+    "en": "DSH Community Plugins",
+    "zh": "DSH 社区插件"
+  },
+  "description": {
+    "en": "Highest-starred installable DeepSeek Harness bundles from GitHub topic dsh-plugin, rebuilt automatically. Verified against DSH 0.2.1-rc.3.",
+    "zh": "从 GitHub 话题 dsh-plugin 中挑选的高星、可安装的 DeepSeek Harness 组合包，自动重建。已按 DSH 0.2.1-rc.3 校验。"
+  },
+  "metadata": {
+    "sortKeys": {
+      "stars": {
+        "title": {
+          "en": "GitHub stars",
+          "zh": "GitHub 星标"
+        },
+        "order": "desc"
+      }
+    }
+  },
+  "plugins": [
+    {
+      "name": "dsh-our-free-model",
+      "title": "DSH OUR Free Model",
+      "description": "Our Free Model — 在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型，桌面端另有 EAC 协付渠道；2.0 起接入 LobsterAI、Qoder、TRAE、Cline、Loomy、Raccoon、MiniMax、ZCode、Gemini 十个账号渠道（原有匿名免费通道保留）（登录、账号池、积分领取、本地 OpenAI 网关与局域网转发、数据看板与运行日志），六页毛玻璃界面统一呈现。",
+      "author": "fish-under-sea",
+      "homepage": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
+      "repository": {
+        "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model"
+      },
+      "metadata": {
+        "keywords": [
+          "dsh",
+          "dsh-plugin",
+          "free-model",
+          "llm-provider"
+        ],
+        "sortKeys": {
+          "stars": 50466
+        }
+      },
+      "versions": [
+        {
+          "version": "2.1.0",
+          "publishTimestamp": 1791738621,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {}
+        }
+      ]
+    },
+    {
+      "name": "dshmarket",
+      "title": "Dshmarket",
+      "description": "Visual plugin market inside DeepSeek Harness — browse, search, and one-click install community plugins. · DSH 可视化插件市场：逛一逛，点一下，装好。",
+      "author": "fkysly",
+      "homepage": "https://dshmarket.com/",
+      "repository": {
+        "url": "https://github.com/dsh-market/dsh-market"
+      },
+      "metadata": {
+        "keywords": [
+          "deepseek",
+          "harness",
+          "dsh",
+          "dsh-plugin",
+          "marketplace",
+          "market",
+          "plugin-manager"
+        ],
+        "sortKeys": {
+          "stars": 9668
+        }
+      },
+      "versions": [
+        {
+          "version": "1.73.3",
+          "publishTimestamp": 1793219941,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {}
+        }
+      ]
+    },
+    {
+      "name": "@dsh-external/dsh-super-injector",
+      "title": "DSH Super Injector",
+      "description": "dsh-routing-suite 分发入口：DSH 超级模组注入器（BepInEx 式运行时注入，免重启）+ router-standard 预设仓库。插件入口为 injector/，预设位于 preset/。",
+      "homepage": "https://github.com/yjh051108/dsh-routing-suite",
+      "repository": {
+        "url": "https://github.com/yjh051108/dsh-routing-suite"
+      },
+      "metadata": {
+        "keywords": [
+          "dsh",
+          "dsh-plugin",
+          "deepseek-harness",
+          "injector",
+          "super-injector",
+          "preset",
+          "router-standard",
+          "cordis",
+          "progressive-disclosure"
+        ],
+        "sortKeys": {
+          "stars": 7001
+        }
+      },
+      "versions": [
+        {
+          "version": "0.3.3",
+          "publishTimestamp": 1789773057,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/yjh051108/dsh-routing-suite",
+            "commit": "195273352f23bff7f9023ebe2ec0cdbdf9c98f10"
+          },
+          "engines": {}
+        }
+      ]
+    },
+    {
+      "name": "@deepseek-harness-tui/dsh-tui",
+      "title": "DSH TUI",
+      "description": "Interactive terminal interface for DeepSeek Harness agents, sessions and tools.",
+      "author": "chimney",
+      "homepage": "https://github.com/ccch1mneyyy/dsh-TUI#readme",
+      "repository": {
+        "url": "https://github.com/ccch1mneyyy/dsh-TUI"
+      },
+      "metadata": {
+        "keywords": [
+          "dsh",
+          "dsh-tui",
+          "dsh-plugin",
+          "deepseek",
+          "deepseek-harness",
+          "cordis",
+          "tui",
+          "terminal",
+          "cli",
+          "ink",
+          "agent",
+          "coding-agent"
+        ],
+        "sortKeys": {
+          "stars": 6176
+        }
+      },
+      "versions": [
+        {
+          "version": "0.17.0",
+          "publishTimestamp": 1792837048,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {}
+        }
+      ]
+    },
+    {
+      "name": "dsh-ops",
+      "title": "DSH OPS",
+      "description": "Native file and PTC tools for DSH on Windows x64, Linux x64 and macOS arm64/x64; Windows-only optional Bash payload and host PowerShell integration",
+      "author": "autofx",
+      "homepage": "https://github.com/T-Auto/dsh-ops#readme",
+      "repository": {
+        "url": "https://github.com/T-Auto/dsh-ops"
+      },
+      "metadata": {
+        "keywords": [
+          "dsh",
+          "dsh-plugin",
+          "deepseek-harness",
+          "repository-tools"
+        ],
+        "sortKeys": {
+          "stars": 4757
+        }
+      },
+      "versions": [
+        {
+          "version": "0.4.4",
+          "publishTimestamp": 1793155461,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.2 <0.2.2-0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-better-sidebar",
+      "title": "DSH Better Sidebar",
+      "description": "Better Sidebar for DSH — file tree, editor, changes, tasks and side chat in one column, separate for every conversation. Also exposes a service other plugins use to register sidebar tabs and file viewers.",
+      "author": "huanlin",
+      "repository": {
+        "url": "https://github.com/omdsh-dev/DSH-better-sidebar"
+      },
+      "metadata": {
+        "keywords": [],
+        "sortKeys": {
+          "stars": 4727
+        }
+      },
+      "versions": [
+        {
+          "version": "0.28.2",
+          "publishTimestamp": 1793114071,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {}
+        }
+      ]
+    },
+    {
+      "name": "dsh-plugin-wallpaper-engine",
+      "title": "DSH Plugin Wallpaper Engine",
+      "description": "Wallpaper Engine backgrounds for the DSH web GUI: render your local Wallpaper Engine wallpapers behind the chat — Scene and Web in real time through the bundled WebWallGL engine, Video played directly — with iOS-style liquid glass, adjustable blur/scrim/border/opacity, custom typography and caret, and a liquid-glass makeover of the whole settings window. Prerequisite: DeepSeek Harness 0.2 kernel (including 0.2.0-rc.1/rc.2) and Node.js >=22.12.0. No version restriction on dsh-better-sidebar.",
+      "author": "chensyovo",
+      "repository": {
+        "url": "https://github.com/elysia395/dsh-wallpaper-engine"
+      },
+      "metadata": {
+        "keywords": [
+          "dsh",
+          "dsh-plugin",
+          "deepseek-harness",
+          "wallpaper",
+          "wallpaper-engine",
+          "theme",
+          "background"
+        ],
+        "sortKeys": {
+          "stars": 3849
+        }
+      },
+      "versions": [
+        {
+          "version": "1.4.0",
+          "publishTimestamp": 1792662730,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": "^0.2.0-rc.1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-context",
+      "title": "DSH Context",
+      "description": "A DeepSeek Harness plugin for context insight and management, with context dashboard and context command, for understanding how the context is made of, and how it evolves.",
+      "author": "bowenliang123",
+      "homepage": "https://github.com/bowenliang123/dsh-context",
+      "repository": {
+        "url": "https://github.com/bowenliang123/dsh-context"
+      },
+      "metadata": {
+        "keywords": [
+          "deepseek-harness",
+          "dsh",
+          "cordis",
+          "plugin",
+          "context",
+          "token",
+          "ui"
+        ],
+        "sortKeys": {
+          "stars": 3839
+        }
+      },
+      "versions": [
+        {
+          "version": "0.78.1",
+          "publishTimestamp": 1793266408,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.2 || >=0.2.1-rc.2"
+          }
+        }
+      ]
+    }
+  ]
+}
