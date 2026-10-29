@@ -1,0 +1,70 @@
+name: rebuild index
+
+on:
+  schedule:
+    # weekly, Monday 03:17 UTC
+    - cron: '17 3 * * 1'
+  workflow_dispatch:
+    inputs:
+      top_n:
+        description: 'How many top-starred repositories to consider'
+        required: false
+        default: '200'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: rebuild-index
+  cancel-in-progress: false
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
+
+      - name: Build index
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TOP_N: ${{ inputs.top_n || '200' }}
+          TARGET_DSH: '0.2.1-rc.3'
+        run: node scripts/build-index.mjs
+
+      - name: Shape check
+        run: |
+          node -e "
+            const { readFileSync } = require('node:fs');
+            const index = JSON.parse(readFileSync('index.json', 'utf8'));
+            if (index.format !== 1) throw new Error('format must be 1');
+            if (!Array.isArray(index.plugins)) throw new Error('plugins must be an array');
+            for (const plugin of index.plugins) {
+              if (!plugin.versions?.length) throw new Error(plugin.name + ' has no versions');
+              for (const v of plugin.versions) {
+                if (!v.source || (v.source.type !== 'npm' && v.source.type !== 'git')) {
+                  throw new Error(plugin.name + ' has an invalid source');
+                }
+              }
+            }
+            console.log('shape check ok:', index.plugins.length, 'plugins');
+          "
+
+      - name: Commit changes
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add index.json report.json
+          if git diff --staged --quiet; then
+            echo 'index unchanged'
+          else
+            git commit -m 'chore: rebuild plugin index'
+            git push
+          fi
+
