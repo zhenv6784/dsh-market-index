@@ -1,0 +1,13 @@
+{
+  "name": "dsh-market-index",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Auto-built DeepSeek Harness plugin market index (format 1) from the dsh-plugin GitHub topic.",
+  "scripts": {
+    "build": "node scripts/build-index.mjs"
+  },
+  "dependencies": {
+    "semver": "^7.7.2"
+  }
+}
