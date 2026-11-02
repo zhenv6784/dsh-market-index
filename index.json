@@ -37,7 +37,7 @@
           "llm-provider"
         ],
         "sortKeys": {
-          "stars": 50472
+          "stars": 56629
         }
       },
       "versions": [
@@ -71,13 +71,13 @@
           "plugin-manager"
         ],
         "sortKeys": {
-          "stars": 9669
+          "stars": 10226
         }
       },
       "versions": [
         {
-          "version": "1.73.3",
-          "publishTimestamp": 1793219941,
+          "version": "1.73.8",
+          "publishTimestamp": 1793559713,
           "source": {
             "type": "npm"
           },
@@ -106,7 +106,7 @@
           "progressive-disclosure"
         ],
         "sortKeys": {
-          "stars": 7001
+          "stars": 6992
         }
       },
       "versions": [
@@ -147,13 +147,13 @@
           "coding-agent"
         ],
         "sortKeys": {
-          "stars": 6176
+          "stars": 6573
         }
       },
       "versions": [
         {
-          "version": "0.17.0",
-          "publishTimestamp": 1792837048,
+          "version": "0.18.0",
+          "publishTimestamp": 1793504619,
           "source": {
             "type": "npm"
           },
@@ -178,7 +178,7 @@
           "repository-tools"
         ],
         "sortKeys": {
-          "stars": 4757
+          "stars": 5041
         }
       },
       "versions": [
@@ -205,7 +205,7 @@
       "metadata": {
         "keywords": [],
         "sortKeys": {
-          "stars": 4727
+          "stars": 4825
         }
       },
       "versions": [
@@ -238,7 +238,7 @@
           "background"
         ],
         "sortKeys": {
-          "stars": 3849
+          "stars": 4590
         }
       },
       "versions": [
@@ -274,13 +274,13 @@
           "ui"
         ],
         "sortKeys": {
-          "stars": 3839
+          "stars": 4002
         }
       },
       "versions": [
         {
-          "version": "0.78.1",
-          "publishTimestamp": 1793266408,
+          "version": "0.79.0",
+          "publishTimestamp": 1793515328,
           "source": {
             "type": "npm"
           },
@@ -311,24 +311,30 @@
           "llm"
         ],
         "sortKeys": {
-          "stars": 2538
+          "stars": 2643
         }
       },
       "versions": [
         {
-          "version": "0.1.27",
-          "publishTimestamp": 1792988143,
+          "version": "0.1.28",
+          "publishTimestamp": 1793342215,
           "source": {
             "type": "npm"
           },
-          "engines": {}
+          "engines": {
+            "dsh": ">=0.1.2-alpha.2"
+          }
         }
       ]
     },
     {
-      "name": "@dsh-external/dsh-blender-plugin",
+      "name": "dsh-blender-plugin",
       "title": "DSH Blender Plugin",
-      "description": "DSH × Blender 直连插件（v2.6.2，GUI 优先，无头备用）：15 个模型工具让 AI 直接驱动 Blender——视口/自定义视角、持久内核 Python、时间窗/帧序列观察、内环参数搜索、无头进程与热会话（see/watch/reset/preload/warmup）、作业层、事务回滚、配方库，以及 34 family / 228 op 的契约层（catalog / 判定 / 验收 / 造型 / 装配 / 白模 / 导出）。v2.6.2 新增曲面算法包 surface_*（loft/sweep/patch → tessellate → validate → export，M0–M2/M4；M3 fit 与 M5 blend/offset 未实现）。P0–P2 能力：交互式无头（rt_do/rt_see session、plan session=auto）、参考图量具（img_digest/probe/measure/calib）、装配扫描/清单/合并/修复/门/导出（asm_*）、白模与 Seedance 参考包（blockout refsheet/turntable）、同机位 QC（visualreport_report）、无头轮廓拟合（shapesolve_solve）、缺陷注入评估（eval_run）、强制门（gate_/deliver_export require_gate）。默认先开 GUI；无头备用；装完必须重启 DSH；唯一验收判据 doctor kind=ok；blender-modeling skill 随包自动注册。详见 README 与 docs/操作教程.md。",
+      "description": "DSH × Blender 直连插件（v3.0.3，GUI 优先，无头备用）：15 个模型工具让 AI 直接驱动 Blender——视口/自定义视角、持久内核 Python、时间窗/帧序列观察、内环参数搜索、无头进程与热会话（see/watch/reset/preload/warmup）、作业层、事务回滚、配方库，以及 34 family / 228 op 的契约层（catalog / 判定 / 验收 / 造型 / 装配 / 白模 / 导出）。v3.0.0 为工程重构版（runtime TypeScript、addon zip）；v2.6.2 新增曲面算法包 surface_*（loft/sweep/patch → tessellate → validate → export，M0–M2/M4；M3 fit 与 M5 blend/offset 未实现）。P0–P2 能力：交互式无头（rt_do/rt_see session、plan session=auto）、参考图量具（img_digest/probe/measure/calib）、装配扫描/清单/合并/修复/门/导出（asm_*）、白模与 Seedance 参考包（blockout refsheet/turntable）、同机位 QC（visualreport_report）、无头轮廓拟合（shapesolve_solve）、缺陷注入评估（eval_run）、强制门（gate_/deliver_export require_gate）。默认先开 GUI；无头备用；装完必须重启 DSH；唯一验收判据 doctor kind=ok；blender-modeling skill 随包自动注册。详见 README 与 docs/操作教程.md。",
+      "author": "villager_uncle",
+      "repository": {
+        "url": "https://github.com/sixtysevenlf/dsh-blender-plugin"
+      },
       "metadata": {
         "keywords": [
           "dsh",
@@ -341,17 +347,15 @@
           "modeling"
         ],
         "sortKeys": {
-          "stars": 1452
+          "stars": 1548
         }
       },
       "versions": [
         {
-          "version": "2.6.2",
-          "publishTimestamp": 1793199095,
+          "version": "3.0.3",
+          "publishTimestamp": 1793562594,
           "source": {
-            "type": "git",
-            "url": "https://github.com/sixtysevenlf/dsh-blender-plugin",
-            "commit": "8b1b47019189ec5f40f092029c9ab5c31daa9e5a"
+            "type": "npm"
           },
           "engines": {}
         }
@@ -374,17 +378,52 @@
           "deepseek-harness"
         ],
         "sortKeys": {
-          "stars": 1399
+          "stars": 1411
         }
       },
       "versions": [
         {
-          "version": "2.14.2",
-          "publishTimestamp": 1792907142,
+          "version": "2.14.3",
+          "publishTimestamp": 1793605905,
           "source": {
             "type": "git",
             "url": "https://github.com/GanyuanRan/Aegis",
-            "commit": "0461c211e4d812f0b215fab240a68a25c1e22424"
+            "commit": "1370a15001b9130316d51715bab44c87a3993dcb"
+          },
+          "engines": {}
+        }
+      ]
+    },
+    {
+      "name": "ds-harness-remote",
+      "title": "DS Harness Remote",
+      "description": "P2P-based, end-to-end encrypted remote access to DeepSeek Harness, CodeX, Claude Code, Pi, and other workspaces from web and mobile clients.",
+      "author": "liguobao",
+      "homepage": "https://github.com/liguobao/ds-harness-remote#readme",
+      "repository": {
+        "url": "https://github.com/liguobao/ds-harness-remote"
+      },
+      "metadata": {
+        "keywords": [
+          "deepseek",
+          "deepseek-harness",
+          "dsh",
+          "dsh-plugin",
+          "codex",
+          "remote-development",
+          "end-to-end-encryption",
+          "webrtc"
+        ],
+        "sortKeys": {
+          "stars": 1273
+        }
+      },
+      "versions": [
+        {
+          "version": "0.6.0",
+          "publishTimestamp": 1793349393,
+          "source": {
+            "type": "npm"
           },
           "engines": {}
         }
@@ -413,13 +452,13 @@
           "plugin"
         ],
         "sortKeys": {
-          "stars": 1195
+          "stars": 1207
         }
       },
       "versions": [
         {
-          "version": "3.1.0",
-          "publishTimestamp": 1792824530,
+          "version": "3.1.1",
+          "publishTimestamp": 1793456045,
           "source": {
             "type": "npm"
           },
@@ -448,13 +487,13 @@
           "duty"
         ],
         "sortKeys": {
-          "stars": 1007
+          "stars": 1135
         }
       },
       "versions": [
         {
-          "version": "2.3.0",
-          "publishTimestamp": 1793122740,
+          "version": "2.4.0",
+          "publishTimestamp": 1793441671,
           "source": {
             "type": "npm"
           },
@@ -465,33 +504,31 @@
       ]
     },
     {
-      "name": "ds-harness-remote",
-      "title": "DS Harness Remote",
-      "description": "P2P-based, end-to-end encrypted remote access to DeepSeek Harness, CodeX, Claude Code, Pi, and other workspaces from web and mobile clients.",
-      "author": "liguobao",
-      "homepage": "https://github.com/liguobao/ds-harness-remote#readme",
+      "name": "dsh-connect-workbuddy",
+      "title": "DSH Connect Workbuddy",
+      "description": "把本机登录的 WorkBuddy 模型（国内版与国际版）接入 DeepSeek Harness：每次刷新按上游目录自动读取每个模型的积分倍率，支持逐模型图片输入开关、多账号切换与账号池自动换号，并提供每日签到、卡片与输入框里的胶囊积分读数等只读积分概览。",
+      "author": "dingminhua",
+      "homepage": "https://github.com/dingminhua/dsh-connect-workbuddy#readme",
       "repository": {
-        "url": "https://github.com/liguobao/ds-harness-remote"
+        "url": "https://github.com/dingminhua/dsh-connect-workbuddy"
       },
       "metadata": {
         "keywords": [
-          "deepseek",
-          "deepseek-harness",
-          "dsh",
           "dsh-plugin",
-          "codex",
-          "remote-development",
-          "end-to-end-encryption",
-          "webrtc"
+          "deepseek-harness",
+          "workbuddy",
+          "codebuddy",
+          "model-provider",
+          "credits"
         ],
         "sortKeys": {
-          "stars": 937
+          "stars": 1022
         }
       },
       "versions": [
         {
-          "version": "0.5.23",
-          "publishTimestamp": 1793234434,
+          "version": "5.17.0",
+          "publishTimestamp": 1793508244,
           "source": {
             "type": "npm"
           },
