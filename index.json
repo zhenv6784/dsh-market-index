@@ -37,7 +37,7 @@
           "llm-provider"
         ],
         "sortKeys": {
-          "stars": 56629
+          "stars": 66928
         }
       },
       "versions": [
@@ -71,52 +71,15 @@
           "plugin-manager"
         ],
         "sortKeys": {
-          "stars": 10226
+          "stars": 11628
         }
       },
       "versions": [
         {
-          "version": "1.73.8",
-          "publishTimestamp": 1793559713,
+          "version": "1.73.16",
+          "publishTimestamp": 1794156839,
           "source": {
             "type": "npm"
-          },
-          "engines": {}
-        }
-      ]
-    },
-    {
-      "name": "@dsh-external/dsh-super-injector",
-      "title": "DSH Super Injector",
-      "description": "dsh-routing-suite 分发入口：DSH 超级模组注入器（BepInEx 式运行时注入，免重启）+ router-standard 预设仓库。插件入口为 injector/，预设位于 preset/。",
-      "homepage": "https://github.com/yjh051108/dsh-routing-suite",
-      "repository": {
-        "url": "https://github.com/yjh051108/dsh-routing-suite"
-      },
-      "metadata": {
-        "keywords": [
-          "dsh",
-          "dsh-plugin",
-          "deepseek-harness",
-          "injector",
-          "super-injector",
-          "preset",
-          "router-standard",
-          "cordis",
-          "progressive-disclosure"
-        ],
-        "sortKeys": {
-          "stars": 6992
-        }
-      },
-      "versions": [
-        {
-          "version": "0.3.3",
-          "publishTimestamp": 1789773057,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/yjh051108/dsh-routing-suite",
-            "commit": "195273352f23bff7f9023ebe2ec0cdbdf9c98f10"
           },
           "engines": {}
         }
@@ -147,13 +110,13 @@
           "coding-agent"
         ],
         "sortKeys": {
-          "stars": 6573
+          "stars": 7284
         }
       },
       "versions": [
         {
-          "version": "0.18.0",
-          "publishTimestamp": 1793504619,
+          "version": "0.19.0",
+          "publishTimestamp": 1793936210,
           "source": {
             "type": "npm"
           },
@@ -162,58 +125,37 @@
       ]
     },
     {
-      "name": "dsh-ops",
-      "title": "DSH OPS",
-      "description": "Native file and PTC tools for DSH on Windows x64, Linux x64 and macOS arm64/x64; Windows-only optional Bash payload and host PowerShell integration",
-      "author": "autofx",
-      "homepage": "https://github.com/T-Auto/dsh-ops#readme",
+      "name": "@dsh-external/dsh-super-injector",
+      "title": "DSH Super Injector",
+      "description": "dsh-routing-suite 分发入口：DSH 超级模组注入器（BepInEx 式运行时注入，免重启）+ router-standard 预设仓库。插件入口为 injector/，预设位于 preset/。",
+      "homepage": "https://github.com/yjh051108/dsh-routing-suite",
       "repository": {
-        "url": "https://github.com/T-Auto/dsh-ops"
+        "url": "https://github.com/yjh051108/dsh-routing-suite"
       },
       "metadata": {
         "keywords": [
           "dsh",
           "dsh-plugin",
           "deepseek-harness",
-          "repository-tools"
+          "injector",
+          "super-injector",
+          "preset",
+          "router-standard",
+          "cordis",
+          "progressive-disclosure"
         ],
         "sortKeys": {
-          "stars": 5041
+          "stars": 7012
         }
       },
       "versions": [
         {
-          "version": "0.4.4",
-          "publishTimestamp": 1793155461,
+          "version": "0.3.3",
+          "publishTimestamp": 1789773057,
           "source": {
-            "type": "npm"
-          },
-          "engines": {
-            "dsh": ">=0.2.0-rc.2 <0.2.2-0"
-          }
-        }
-      ]
-    },
-    {
-      "name": "dsh-better-sidebar",
-      "title": "DSH Better Sidebar",
-      "description": "Better Sidebar for DSH — file tree, editor, changes, tasks and side chat in one column, separate for every conversation. Also exposes a service other plugins use to register sidebar tabs and file viewers.",
-      "author": "huanlin",
-      "repository": {
-        "url": "https://github.com/omdsh-dev/DSH-better-sidebar"
-      },
-      "metadata": {
-        "keywords": [],
-        "sortKeys": {
-          "stars": 4825
-        }
-      },
-      "versions": [
-        {
-          "version": "0.28.2",
-          "publishTimestamp": 1793114071,
-          "source": {
-            "type": "npm"
+            "type": "git",
+            "url": "https://github.com/yjh051108/dsh-routing-suite",
+            "commit": "195273352f23bff7f9023ebe2ec0cdbdf9c98f10"
           },
           "engines": {}
         }
@@ -238,13 +180,13 @@
           "background"
         ],
         "sortKeys": {
-          "stars": 4590
+          "stars": 6123
         }
       },
       "versions": [
         {
-          "version": "1.4.0",
-          "publishTimestamp": 1792662730,
+          "version": "1.4.2",
+          "publishTimestamp": 1793903239,
           "source": {
             "type": "npm"
           },
@@ -274,18 +216,18 @@
           "ui"
         ],
         "sortKeys": {
-          "stars": 4002
+          "stars": 4744
         }
       },
       "versions": [
         {
-          "version": "0.79.0",
-          "publishTimestamp": 1793515328,
+          "version": "0.83.0",
+          "publishTimestamp": 1794159997,
           "source": {
             "type": "npm"
           },
           "engines": {
-            "dsh": ">=0.2.0-rc.2 || >=0.2.1-rc.2"
+            "dsh": ">=0.2.0-rc.2 || >=0.2.1-rc.2 || >=0.2.2-rc.1"
           }
         }
       ]
@@ -311,86 +253,19 @@
           "llm"
         ],
         "sortKeys": {
-          "stars": 2643
+          "stars": 2806
         }
       },
       "versions": [
         {
-          "version": "0.1.28",
-          "publishTimestamp": 1793342215,
+          "version": "0.1.29",
+          "publishTimestamp": 1793933836,
           "source": {
             "type": "npm"
           },
           "engines": {
             "dsh": ">=0.1.2-alpha.2"
           }
-        }
-      ]
-    },
-    {
-      "name": "dsh-blender-plugin",
-      "title": "DSH Blender Plugin",
-      "description": "DSH × Blender 直连插件（v3.0.3，GUI 优先，无头备用）：15 个模型工具让 AI 直接驱动 Blender——视口/自定义视角、持久内核 Python、时间窗/帧序列观察、内环参数搜索、无头进程与热会话（see/watch/reset/preload/warmup）、作业层、事务回滚、配方库，以及 34 family / 228 op 的契约层（catalog / 判定 / 验收 / 造型 / 装配 / 白模 / 导出）。v3.0.0 为工程重构版（runtime TypeScript、addon zip）；v2.6.2 新增曲面算法包 surface_*（loft/sweep/patch → tessellate → validate → export，M0–M2/M4；M3 fit 与 M5 blend/offset 未实现）。P0–P2 能力：交互式无头（rt_do/rt_see session、plan session=auto）、参考图量具（img_digest/probe/measure/calib）、装配扫描/清单/合并/修复/门/导出（asm_*）、白模与 Seedance 参考包（blockout refsheet/turntable）、同机位 QC（visualreport_report）、无头轮廓拟合（shapesolve_solve）、缺陷注入评估（eval_run）、强制门（gate_/deliver_export require_gate）。默认先开 GUI；无头备用；装完必须重启 DSH；唯一验收判据 doctor kind=ok；blender-modeling skill 随包自动注册。详见 README 与 docs/操作教程.md。",
-      "author": "villager_uncle",
-      "repository": {
-        "url": "https://github.com/sixtysevenlf/dsh-blender-plugin"
-      },
-      "metadata": {
-        "keywords": [
-          "dsh",
-          "blender",
-          "ai-agent",
-          "tooling",
-          "bpy",
-          "cycles",
-          "skill",
-          "modeling"
-        ],
-        "sortKeys": {
-          "stars": 1548
-        }
-      },
-      "versions": [
-        {
-          "version": "3.0.3",
-          "publishTimestamp": 1793562594,
-          "source": {
-            "type": "npm"
-          },
-          "engines": {}
-        }
-      ]
-    },
-    {
-      "name": "aegis",
-      "title": "Aegis",
-      "author": "killdream",
-      "repository": {
-        "url": "https://github.com/GanyuanRan/Aegis"
-      },
-      "metadata": {
-        "keywords": [
-          "pi-package",
-          "agent-skills",
-          "aegis",
-          "method-pack",
-          "dsh-plugin",
-          "deepseek-harness"
-        ],
-        "sortKeys": {
-          "stars": 1411
-        }
-      },
-      "versions": [
-        {
-          "version": "2.14.3",
-          "publishTimestamp": 1793605905,
-          "source": {
-            "type": "git",
-            "url": "https://github.com/GanyuanRan/Aegis",
-            "commit": "1370a15001b9130316d51715bab44c87a3993dcb"
-          },
-          "engines": {}
         }
       ]
     },
@@ -415,17 +290,152 @@
           "webrtc"
         ],
         "sortKeys": {
-          "stars": 1273
+          "stars": 2390
         }
       },
       "versions": [
         {
-          "version": "0.6.0",
-          "publishTimestamp": 1793349393,
+          "version": "0.6.4",
+          "publishTimestamp": 1794144859,
           "source": {
             "type": "npm"
           },
           "engines": {}
+        }
+      ]
+    },
+    {
+      "name": "dsh-blender-plugin",
+      "title": "DSH Blender Plugin",
+      "description": "DSH × Blender 直连插件（v3.1.0-alpha.1，GUI 优先，无头备用）：6 个模型工具让 AI 直接驱动 Blender——blender_session（会话/归属/权限/事务）、blender_op（catalog 与 loop/opt/preset）、blender_py（GUI 会话内 Python）、blender_see（视口截图与序列）、blender_run（唯一作业入口：render/headless/队列）、blender_inspect（commands/cmd）；Gateway 单一端点、addon 反向连接，Windows virtual-gui GA、Linux preview，34 family / 228 op 的契约层（catalog / 判定 / 验收 / 造型 / 装配 / 白模 / 导出）。v3.0.0 为工程重构版（runtime TypeScript、extension zip）；v2.6.2 新增曲面算法包 surface_*（loft/sweep/patch → tessellate → validate → export，M0–M2/M4；M3 fit 与 M5 blend/offset 未实现）。P0–P2 能力（现由上述 6 工具承载）：参考图量具（img_digest/probe/measure/calib）、装配扫描/清单/合并/修复/门/导出（asm_*）、白模与 Seedance 参考包（blockout refsheet/turntable）、同机位 QC（visualreport_report）、无头轮廓拟合（shapesolve_solve）、缺陷注入评估（eval_run）、强制门（gate_/deliver_export require_gate）。默认先开 GUI；无头备用；装完必须重启 DSH；唯一验收判据 doctor kind=ok；blender-modeling skill 随包自动注册。详见 README 与 docs/操作教程.md。",
+      "author": "villager_uncle",
+      "repository": {
+        "url": "https://github.com/sixtysevenlf/dsh-blender-plugin"
+      },
+      "metadata": {
+        "keywords": [
+          "dsh",
+          "blender",
+          "ai-agent",
+          "tooling",
+          "bpy",
+          "cycles",
+          "skill",
+          "modeling"
+        ],
+        "sortKeys": {
+          "stars": 1908
+        }
+      },
+      "versions": [
+        {
+          "version": "3.0.6",
+          "publishTimestamp": 1793865233,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {}
+        }
+      ]
+    },
+    {
+      "name": "aegis",
+      "title": "Aegis",
+      "author": "killdream",
+      "repository": {
+        "url": "https://github.com/GanyuanRan/Aegis"
+      },
+      "metadata": {
+        "keywords": [
+          "pi-package",
+          "agent-skills",
+          "aegis",
+          "method-pack",
+          "dsh-plugin",
+          "deepseek-harness"
+        ],
+        "sortKeys": {
+          "stars": 1424
+        }
+      },
+      "versions": [
+        {
+          "version": "2.15.0",
+          "publishTimestamp": 1793806815,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/GanyuanRan/Aegis",
+            "commit": "952b150a16b9cf9c702022ea779bcc6750b0d48d"
+          },
+          "engines": {}
+        }
+      ]
+    },
+    {
+      "name": "dsh-connect-workbuddy",
+      "title": "DSH Connect Workbuddy",
+      "description": "把本机登录的 WorkBuddy 模型（国内版与国际版）接入 DeepSeek Harness：每次刷新按上游目录自动读取每个模型的积分倍率，支持逐模型图片输入开关、多账号切换与账号池自动换号，并提供每日签到、卡片与输入框里的胶囊积分读数等只读积分概览。",
+      "author": "dingminhua",
+      "homepage": "https://github.com/dingminhua/dsh-connect-workbuddy#readme",
+      "repository": {
+        "url": "https://github.com/dingminhua/dsh-connect-workbuddy"
+      },
+      "metadata": {
+        "keywords": [
+          "dsh-plugin",
+          "deepseek-harness",
+          "workbuddy",
+          "codebuddy",
+          "model-provider",
+          "credits"
+        ],
+        "sortKeys": {
+          "stars": 1366
+        }
+      },
+      "versions": [
+        {
+          "version": "5.21.2",
+          "publishTimestamp": 1794160305,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {}
+        }
+      ]
+    },
+    {
+      "name": "dsh-bili-scroll",
+      "title": "DSH Bili Scroll",
+      "description": "DSH 插件：每天替你刷一轮 B站 —— 读字幕挑出值得的、写一份日报，值得的就 @ 你",
+      "author": "cloverzz",
+      "homepage": "https://github.com/c1overzz/dsh-bili-scroll#readme",
+      "repository": {
+        "url": "https://github.com/c1overzz/dsh-bili-scroll"
+      },
+      "metadata": {
+        "keywords": [
+          "dsh",
+          "dsh-plugin",
+          "deepseek-harness",
+          "bilibili",
+          "mcp",
+          "duty"
+        ],
+        "sortKeys": {
+          "stars": 1340
+        }
+      },
+      "versions": [
+        {
+          "version": "2.5.1",
+          "publishTimestamp": 1794171261,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.7-rc.1"
+          }
         }
       ]
     },
@@ -452,87 +462,19 @@
           "plugin"
         ],
         "sortKeys": {
-          "stars": 1207
+          "stars": 1248
         }
       },
       "versions": [
         {
-          "version": "3.1.1",
-          "publishTimestamp": 1793456045,
+          "version": "3.1.5",
+          "publishTimestamp": 1794165645,
           "source": {
             "type": "npm"
           },
           "engines": {
             "dsh": ">=0.1.5-rc.1 <0.2.0-0 || >=0.2.0-rc.2 <0.3.0-0"
           }
-        }
-      ]
-    },
-    {
-      "name": "dsh-bili-scroll",
-      "title": "DSH Bili Scroll",
-      "description": "DSH 插件：每天替你刷一轮 B站 —— 读字幕挑出值得的、写一份日报，值得的就 @ 你",
-      "author": "cloverzz",
-      "homepage": "https://github.com/c1overzz/dsh-bili-scroll#readme",
-      "repository": {
-        "url": "https://github.com/c1overzz/dsh-bili-scroll"
-      },
-      "metadata": {
-        "keywords": [
-          "dsh",
-          "dsh-plugin",
-          "deepseek-harness",
-          "bilibili",
-          "mcp",
-          "duty"
-        ],
-        "sortKeys": {
-          "stars": 1135
-        }
-      },
-      "versions": [
-        {
-          "version": "2.4.0",
-          "publishTimestamp": 1793441671,
-          "source": {
-            "type": "npm"
-          },
-          "engines": {
-            "dsh": ">=0.1.7-rc.1"
-          }
-        }
-      ]
-    },
-    {
-      "name": "dsh-connect-workbuddy",
-      "title": "DSH Connect Workbuddy",
-      "description": "把本机登录的 WorkBuddy 模型（国内版与国际版）接入 DeepSeek Harness：每次刷新按上游目录自动读取每个模型的积分倍率，支持逐模型图片输入开关、多账号切换与账号池自动换号，并提供每日签到、卡片与输入框里的胶囊积分读数等只读积分概览。",
-      "author": "dingminhua",
-      "homepage": "https://github.com/dingminhua/dsh-connect-workbuddy#readme",
-      "repository": {
-        "url": "https://github.com/dingminhua/dsh-connect-workbuddy"
-      },
-      "metadata": {
-        "keywords": [
-          "dsh-plugin",
-          "deepseek-harness",
-          "workbuddy",
-          "codebuddy",
-          "model-provider",
-          "credits"
-        ],
-        "sortKeys": {
-          "stars": 1022
-        }
-      },
-      "versions": [
-        {
-          "version": "5.17.0",
-          "publishTimestamp": 1793508244,
-          "source": {
-            "type": "npm"
-          },
-          "engines": {}
         }
       ]
     }
